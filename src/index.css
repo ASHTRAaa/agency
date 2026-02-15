@@ -19,3 +19,22 @@ body {
  html{
     scroll-behavior: smooth;
  }
+ :root{
+   --bs-gray: #6c757d;
+   --bright-gray: #E8E9EB;
+   --bs-green: #198754;
+   --bs-indigo:#6610f2;
+   --bs-info:#0dcaf0;
+   --bs-light: #f8f9fa;
+    --bs-orange: #fd7e14;
+    --bs-pink: #d63384;
+    --bs-primary: #0d6efd;
+    --bs-purple: #6f42c1;
+    --bs-red: #dc3545;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-teal: #20c997;
+     --bs-warning: #ffc107;
+     --bs-white: #fff;
+    --bs-yellow: #ffc107;
+ }
