@@ -3,19 +3,19 @@
     
     width: 100%;
     justify-content: space-evenly;
-  
+ margin-top:4rem;
     margin-bottom: 1rem;
     
 }
 .main-container{
     background-color: black;
-    padding: 30px 30px;
+    padding: 55px 30px;
 }
 .service-texts{
     color: #fff;
-    margin-left:10px;
-    line-height: 2;
-    border-bottom: 2px solid var(--bs-gray);
+    margin-left:2.5rem;
+    line-height: 1.7;
+    /* border-bottom: 2px solid var(--bs-gray); */
     margin-bottom: 3rem;
 }
 .service-texts h2{
