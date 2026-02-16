@@ -1,0 +1,42 @@
+
+
+.cards{
+  width:420px;
+  background:linear-gradient(180deg,#083a3c,#021c1d);
+  border-radius:40px;
+  padding:40px 30px;
+  color:white;
+  position:relative;
+  overflow:hidden;
+  height:38rem;
+}
+
+.cards h2{
+  font-size:36px;
+  margin:0;
+  font-weight:500;
+}
+
+.cards p{
+  margin-top:6px;
+  color:#cfd8dc;
+}
+
+.mockup{
+    height:50%;
+  margin:38px 0;
+  display:flex;
+  justify-content:center;
+}
+
+.mockup img{
+  width:100%;
+  max-width:360px;
+}
+
+.bottom-text{
+  font-size:34px;
+  font-weight:500;
+  letter-spacing:1px;
+  line-height:1.3;
+}
