@@ -3,7 +3,7 @@ import "./Home.css"
 import HomeService from '../../layout/home-service/HomeService'
 import let_talk from '../../assets/let_talk.png';
 import HomeWork from '../../layout/home-work/HomeWork';
-import Footer from '../../components/footer/Footer';
+
 
 
 export default function Home() {
@@ -28,7 +28,6 @@ export default function Home() {
 </div>
 
     <HomeWork/>
-    <Footer/>
     </>
 
   )
