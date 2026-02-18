@@ -1,11 +1,20 @@
 import "./App.css"
-import Navbar from "./components/navbar/Navbar.jsx"
+import {Routes,Route} from "react-router-dom";
+import MainLayout from "./layout/main-layout/MainLayout.jsx";
+import Home from "./pages/home/Home.jsx";
+import AboutUs from "./pages/about-us/AboutUs.jsx";
+
+
 function App() {
  
   return (
-    <>
-    <Navbar/>
-    </>
+   
+   <Routes>
+      <Route path="/" element={<MainLayout/>}>
+      <Route index element={<Home />} />
+      <Route path="about-us" element={<AboutUs/>}/>
+      </Route>
+    </Routes>
   );
 }
 
