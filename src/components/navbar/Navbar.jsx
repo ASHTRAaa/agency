@@ -7,14 +7,29 @@ const Navbar = ()=>{
            <h1>AgENCY</h1>
          </div>
          <nav className="navbar">
-           <NavLink to="/" className={({isActive})=> isActive? "nav-link active":"navbar a" }>Home</NavLink>
-           <NavLink to="/">About Us</NavLink>
-           <NavLink to="/">Services</NavLink>
-           <NavLink to="/">Our Work</NavLink>
-           <NavLink to="/">Contact Us</NavLink>
+           <NavLink
+             to="/" 
+             end
+             className={({ isActive }) =>
+               isActive ? "nav-link active" : "navlink"
+             }
+           >
+             Home
+           </NavLink>
+           <NavLink
+             to="/about-us"
+             className={({ isActive }) =>
+               isActive ? "nav-link active" : "navlink"
+             }
+           >
+             About Us
+           </NavLink>
+           <NavLink to="/services">Services</NavLink>
+           <NavLink to="/our-work">Our Work</NavLink>
+           <NavLink to="/contact-us">Contact Us</NavLink>
          </nav>
          <div className="button">
-           <button className='cta-btn'>COST YOUR PROJECT</button>
+           <button className="cta-btn">COST YOUR PROJECT</button>
          </div>
        </div>
      );
